@@ -14,8 +14,6 @@ $nav-height: 60px;
 $catalog-padding: 50px 40px;
 $gap-column: 48px;
 $gap-row: 46px;
-// stylelint-disable-next-line scss/dollar-variable-colon-space-after
-$transition-catalog:
-  transform 300ms,
+$transition-catalog: transform 300ms,
   color 300ms,
   background-color 300ms;
