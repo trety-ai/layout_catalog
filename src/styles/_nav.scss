@@ -32,14 +32,12 @@
     color: $nav-blue-light;
   }
 
-}
-
-  .is-active {
+  &__link.is-active {
     position: relative;
     color: $nav-blue-light;
   }
 
-  .is-active::after {
+  &__link.is-active::after {
     content: '';
     position: absolute;
     left: 0;
@@ -48,3 +46,7 @@
     height: 3px;
     background-color: $nav-blue-light;
   }
+
+}
+
+
