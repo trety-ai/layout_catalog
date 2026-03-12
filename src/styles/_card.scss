@@ -1,11 +1,11 @@
 .card {
   box-sizing: border-box;
   width: $card-width;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $color-border;
   color: $color-text;
   background: $header-color;
   transform: scale(1);
-  transform: $transition-catalog;
+  transition: $transition-catalog;
 
   &:hover {
     transform: scale(1.2);
